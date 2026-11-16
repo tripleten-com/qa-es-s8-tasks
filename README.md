@@ -1,1 +1,1 @@
-# Python tasks for QA USA
+# Tareas de Python para QA

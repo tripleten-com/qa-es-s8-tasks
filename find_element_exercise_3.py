@@ -3,22 +3,22 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-# Initialize a new instance of the Chrome WebDriver
+# Inicializa una nueva instancia de Chrome WebDriver
 driver = webdriver.Chrome()
 
-# Open the specified URL in the browser
+# Abre la URL especificada en el navegador
 driver.get(" SERVER URL ")
 
-# Pause execution for 2 seconds to allow the page to load fully
+# Pausa la ejecución durante 2 segundos para que la página cargue por completo
 time.sleep(2)
 
-# Find the FROM input field and TO input field using their IDs
+# Busca los campos de entrada FROM (Desde) y TO (Hasta) usando sus ID
 from_field = driver...
 to_field = driver...
 
-# Test the placeholder attribute for each input field to ensure they display the correct text
+# Comprueba el atributo placeholder de cada campo de entrada para asegurarte de que muestran el texto correcto
 assert ...
 assert ...
 
-# Close the browser and end the WebDriver session
+# Cierra el navegador y finaliza la sesión de WebDriver
 driver...

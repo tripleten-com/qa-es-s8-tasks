@@ -3,20 +3,20 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-# Initialize a new instance of the Chrome WebDriver
+# Inicializa una nueva instancia de Chrome WebDriver
 driver = webdriver.Chrome()
 
-# Open the specified URL in the browser
+# Abre la URL especificada en el navegador
 driver.get(" SERVER URL ")
 
-# Pause execution for 2 seconds to allow the page to load fully
+# Pausa la ejecución durante 2 segundos para que la página cargue por completo
 time.sleep(2)
 
-# Find all elements on the page using an XPath selector
+# Busca todos los elementos de la página usando un selector XPath
 elements = driver...
 
-# Check that the number of elements found is greater than 1 by using len()
+# Comprueba con len() que el número de elementos encontrados sea mayor que 1
 ...
 
-# Close the browser and end the WebDriver session
+# Cierra el navegador y finaliza la sesión de WebDriver
 driver...

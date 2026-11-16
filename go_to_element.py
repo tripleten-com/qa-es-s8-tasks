@@ -10,27 +10,27 @@ driver.get("https://around-v1.nm.tripleten-services.com/signin?lng=en")
 
 time.sleep(2)
 
-# Find the Email field and fill it in
+# Busca el campo Email y rellénalo
 ...
 
-# Find the Password field and fill it in
+# Busca el campo Password (Contraseña) y rellénalo
 ...
 
-# Find the Login button and click on it
+# Busca el botón Login (Iniciar sesión) y haz clic en él
 ...
 
-# Add an explicit wait for the page to load
+# Agrega una espera explícita para que cargue la página
 ...
 
-# Find the footer
+# Busca el footer (pie de página)
 element = ...
 
-# Scroll the footer into view
+# Desplázate hasta que el footer sea visible
 driver.execute_script(...)
 
 time.sleep(3)
 
-# Check that the footer contains the string 'Around'
+# Comprueba que el footer contenga la cadena 'Around'
 assert ...
 
 driver.quit()

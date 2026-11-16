@@ -8,29 +8,29 @@ from selenium.webdriver.support.wait import WebDriverWait
 driver = webdriver.Chrome()
 driver.get(" SERVER URL ")
 
-# Pause execution for 2 seconds to allow the page to load fully
+# Pausa la ejecución durante 2 segundos para que la página cargue por completo
 time.sleep(2)
 
-# Find the FROM field and fill it in
+# Busca el campo FROM (Desde) y rellénalo
 driver...
 
-# Find the TO field and fill it in
+# Busca el campo TO (Hasta) y rellénalo
 driver...
 
 time.sleep(2)
 
-# Find the "Call a taxi" button and click on it
+# Busca el botón "Call a taxi" (Pedir un taxi) y haz clic en él
 driver...
 
-# Add an explicit wait for the field to load
+# Agrega una espera explícita para que cargue el campo
 WebDriverWait(...).until(...)
 
-# Write a comment to the driver
+# Escribe un comentario para el conductor
 driver...
 
 time.sleep(2)
 
-# Check that your comment is what you expect it to be
+# Comprueba que tu comentario sea el esperado
 assert ...
 
 driver.quit()

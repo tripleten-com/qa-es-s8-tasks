@@ -3,11 +3,11 @@ from selenium import webdriver
 driver = webdriver.Chrome()
 driver.maximize_window()
 
-# Open the Urban Routes home page
+# Abre la página de inicio de Urban Routes
 driver...
 
-# Check url contains tripleten-services.com
+# Comprueba que la URL contenga tripleten-services.com
 assert ...
 
-# Close the browser
+# Cierra el navegador
 driver...

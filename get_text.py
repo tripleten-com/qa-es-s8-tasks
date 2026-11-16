@@ -6,23 +6,23 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Chrome()
 driver.get(" SERVER URL ")
 
-# Pause execution for 2 seconds to allow the page to load fully
+# Pausa la ejecución durante 2 segundos para que la página cargue por completo
 time.sleep(2)
 
-# Find the FROM field and fill it in
+# Busca el campo FROM (Desde) y rellénalo
 driver...
 
-# Find the TO field and fill it in
+# Busca el campo TO (Hasta) y rellénalo
 driver...
 
 time.sleep(2)
 
-# Get the text from "Fastest" mode
+# Obtén el texto del modo "Fastest" (Más rápido)
 mode = ...
 
 time.sleep(2)
 
-# Assert that the text of the mode variable is "Fastest"
+# Comprueba que el texto de la variable mode sea "Fastest"
 assert ...
 
 driver.quit()

@@ -3,20 +3,20 @@ import time
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 
-# Initialize a new instance of the Chrome WebDriver
+# Inicializa una nueva instancia de Chrome WebDriver
 driver = webdriver.Chrome()
 
-# Open the specified URL in the browser
+# Abre la URL especificada en el navegador
 driver.get(" SERVER URL ")
 
-# Pause execution for 2 seconds to allow the page to load fully
+# Pausa la ejecución durante 2 segundos para que la página cargue por completo
 time.sleep(2)
 
-# Find the button using its XPath and click on it
+# Busca el botón usando su XPath y haz clic en él
 driver.find_element(...)...
 
-# Pause execution for 2 seconds to allow you to see the results of the click
+# Pausa la ejecución durante 2 segundos para que puedas ver el resultado del clic
 time.sleep(2)
 
-# Close the browser and end the WebDriver session
+# Cierra el navegador y finaliza la sesión de WebDriver
 driver.quit()
